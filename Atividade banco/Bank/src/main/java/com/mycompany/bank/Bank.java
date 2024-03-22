@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Bank {
 
-    private static ArrayList<Conta> contas = new ArrayList<>();
+    private static ArrayList<Conta> contas = new ArrayList<Conta>();
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
